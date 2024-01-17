@@ -1,4 +1,4 @@
-polls/templates/polls/detail.html¶
+
 <form action="{% url 'polls:vote' question.id %}" method="post">
 {% csrf_token %}
 <fieldset>
